@@ -33,17 +33,9 @@ const ContentDisplay = () => {
         intuition. Some projects that I have created are:
         <br />
         <br />
-        <strong>Cellular Automata of Traffic:</strong> Mathematically modelled
-        flow of traffic on a single lane road via a simple cellular automata
-        model with a periodic boundary condition to simulate driving in a loop
-        and investigate how traffic build-ups evolve over time. It bears some
-        resemblance to Conway's game of life which happened to be one of my
-        friends first React projects.
-        <br />
-        <br />
-        <strong>Nearest Neighbour of N Points in Periodic Cube:</strong>{" "}
-        Optimized prewritten code that found nearest neighbour for N number of
-        points in a periodic cube (similar to lattice structures in crystals)
+        <strong>Cellular Automata of Traffic:</strong> Modelled flow of traffic
+        on a single lane road in a loop to see how traffic evolves over time
+        with different rules for different traffic scenarios.
         <br />
         <br />
         <strong>Lunar Lander game:</strong> A lunar lander game made using
@@ -63,21 +55,20 @@ const ContentDisplay = () => {
         <br />
         <br />
         I've recently been interested in philosophy, so I read some books on
-        stoicism. Obviously I enjoy physics so I'd like to start self studying
-        to keep in touch.
+        stoicism. I'm still very much in love with Physics so I'd like to start
+        self studying to keep in touch.
         <br />
         <br />
         For most of my degree I didn't like quantum mechanics or particle
         physics but during my final year I took some unbelievable modules on
         theoretical particle physics and symmetry in physics which completely
-        changed my mind on the subjects and now I'm a particle physicist.
+        changed my mind on the subjects so now I'm definitely a particle
+        physicist.
         <br />
-        <br />I produce music sometimes, so you can find my SoundCloud below.
-        I've been listening to jungle recently so you might hear that soon.
-        <br />
-        <br /> Oh and I'm a gamer too, some of my favourite games would be
-        League of Legends, Ghost of Tsushima, Monster Hunter, Call of Duty,
-        Diablo 4 and Katana Zero.
+        <br />I produce music sometimes, you can find my SoundCloud below. I've
+        been listening to jungle recently so you might hear that soon. I'm a
+        gamer too, some of my favourite games are League of Legends, Ghost of
+        Tsushima and Katana Zero.
       </div>
     );
   }
@@ -123,7 +114,7 @@ const ContentDisplay = () => {
             </button>
           </div>
         </div>
-        <div className="p-2">{content}</div>
+        <div className="p-2 content-text-left">{content}</div>
       </div>
     </div>
   );
